@@ -1,0 +1,88 @@
+.principal {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    margin-top: 28px;
+}
+.principal__assistir {
+    width: 952px;
+    height: 746px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-right: 25px;
+}
+
+.principal__assistir___video {
+    width: 952px;
+    height: 537px;
+    margin-bottom: 40px;
+}
+
+.principal__assistir___video img {
+    margin-bottom: 16px;
+}
+
+.principal__assistir___cabecalho {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 902px;
+    height: 42px;
+    margin: 16px 0;
+}
+
+.principal__assistir___texto {
+    width: 510px;
+}
+
+.principal__assistir___texto p {
+    margin-top: 16px;
+}
+
+#cabecalho_info {
+    width: 160px;
+    height: 42px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#cabecalho_botao button {
+    width: 159px;
+    height: 40px;
+    border: 0;
+    background-color: #CC0000;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+#cabecalho_like, #cabecalho_deslike, #cabecalho_compartilhar, #cabecalho_download {
+    display: flex;
+    justify-content: space-between;
+}
+
+#cabecalho_like {
+    width: 63px;
+    height: 24px;
+}
+
+#cabecalho_deslike {
+    width: 100px;
+    height: 24px;
+}
+
+#cabecalho_compartilhar {
+    width: 115px;
+    height: 24px;
+}
+
+#cabecalho_download {
+    width: 95px;
+    height: 24px;
+}
+
+
+

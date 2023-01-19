@@ -1,0 +1,34 @@
+.principal__sugeridos {
+    width: 372px;
+    height:938px;
+    display: flex;
+    flex-direction: column;
+}
+
+.principal__sugeridos___card {
+    width: 372px;
+    height: 90px;
+    margin-bottom: 16px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.card_video {
+    width: 160px;
+    height: 90px;
+}
+
+.card_texto {
+    width: 196px;
+    height: 90px;
+}
+
+.principal__sugeridos___card p {
+    font-weight: 400;
+    font-size: 12px;
+    margin-top: 8px;
+}
+
+.principal__sugeridos___card .card__texto___ultimo {
+    margin-top: 0px;
+}

@@ -1,0 +1,1 @@
+Esse projeto tem por objetivo realizar uma clonagem de uma página do youtube para aplicar e desenvolver os conhecimentos de CSS Flexbox.
