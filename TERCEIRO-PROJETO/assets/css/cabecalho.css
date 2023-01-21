@@ -1,0 +1,58 @@
+.cabecalho {
+    padding: 8px 27px;
+    display: flex;
+    align-items:baseline;
+    background-color: white;
+}
+
+.cabecalho__barra {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 100%;
+}
+
+.cabecalho__barra___logo {
+    margin-left: 10px;
+    width: 90px;
+    height: 20px;
+}
+
+.cabecalho__barra___pesquisa {
+    display: flex;
+    border: 1px solid #cccccc;
+}
+
+.cabecalho__barra___pesquisa input {
+    border: none;
+    width: 348px;
+    height: 40px;
+}
+
+.cabecalho__barra___pesquisa button {
+    border: none;
+    border-left: 1px solid #cccccc;
+    background-image: url('../img/cabecalho/icone_search.svg');
+    background-repeat: no-repeat;
+    background-size: 50%;
+    background-position: center;
+    width: 57px;
+    height: 40px;
+}
+
+.cabecalho__barra___icones {
+    display: flex;
+    width: 130px;
+    height: 34px;
+    justify-content: space-between;
+    margin-right: 24px;
+}
+
+.cabecalho__barra___icones img{
+    width: 34px;
+    height: 34px;
+}
+
+.cabecalho__barra___icones img:nth-child(3) {
+    border-radius: 50%;   
+}

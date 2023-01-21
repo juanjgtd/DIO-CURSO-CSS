@@ -1,0 +1,38 @@
+.principal__grid {
+    display: grid;
+    grid-template-columns: repeat(5, 282px);
+    grid-auto-rows: 262px;    
+    margin-left: 44px;
+    margin-top: 40px;
+    gap: 30px;
+}
+
+.principal__item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.descricao__icone {
+    width: 42px;
+    height: 42px;
+}
+
+.descricao__texto {
+    width: 197px;
+    height: 74px;
+}
+
+.principal__descricao {
+    width: 250px;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 16px;
+}
+
+.principal__video {
+    width: 250px;
+    height: 140px;
+
+}
+

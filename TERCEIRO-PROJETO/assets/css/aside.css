@@ -1,0 +1,38 @@
+.principal {
+    display: flex;
+}
+
+.principal__menu {
+    background-color: white;
+    width: 218px;
+    height: 968px;
+}
+
+.principal__menu___item {
+    display: flex;
+    list-style-type: none;
+    padding-top: 30px;
+    align-items: center;
+    justify-content: left;
+    margin-left: -16px;
+}
+
+.principal__menu___item:nth-child(1) {
+    padding-top: 28px;
+}
+
+.principal__menu___item img {
+    width: 24px;
+    height: 24px;
+}
+
+.principal__menu___item h3 {
+    font-weight: 400;
+    font-size: 14px;
+    margin-left: 18px;
+}
+
+.principal__menu___item:nth-child(1) h3{
+    font-weight: 700;
+}
+
