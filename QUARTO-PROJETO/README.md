@@ -1,0 +1,1 @@
+Reprodução d página da plataforma do Discord colocando em prática todos os conceitos de css aprendidos, principalmente sobre Responsividade no CSS.

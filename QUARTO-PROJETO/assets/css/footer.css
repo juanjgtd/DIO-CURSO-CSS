@@ -1,0 +1,25 @@
+footer {
+    background-color: black;
+}
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center; 
+    height: 140px;
+}
+
+.footer img {
+    height: 45px;
+    width: 162px;
+}
+
+/* Responsividade para telas maiores que 856px (a menor tela em landscape)*/
+
+@media screen and (min-width:856px) {
+    .footer img {
+        height: 63px;
+        width: 230px;
+    }
+}

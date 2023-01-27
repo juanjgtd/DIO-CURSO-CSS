@@ -1,0 +1,84 @@
+header {
+    width: 100%;
+}
+
+p, a {
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-size: 1rem;
+}
+
+.header_container {
+    background: url('../img/img_banner_pequeno.png') no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    color: white;
+    padding: 70px 24px;
+}
+
+.header_container h1 {
+    font-family: 'Luckiest Guy';
+    font-weight: 400;
+    font-size: 2rem;
+    text-transform: uppercase;
+    width: 278px;
+    height: 64px;
+}
+
+.header_links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    gap: 16px;
+}
+
+.header_links a {
+    text-decoration: none;
+    background-color: white;
+    color: black;
+    width: 381px;
+    height: 54px;
+    border-radius: 28px;
+    padding: 16px 0px;
+}
+
+.header_links a:nth-child(2){
+    background-color: black;
+    color: white;
+}
+
+/* Responsividade para telas maiores que 856px (a menor tela em landscape)*/
+
+@media screen and (min-width:856px) {
+    .header_container {
+        background: url('../img/img_banner.png') no-repeat;
+        background-size: cover;
+        padding: 94px 0px;
+        align-items: center;
+        text-align: center;
+    }
+
+    .header_container h1 {
+        font-weight: 400;
+        font-size: 3.5rem;
+        width: 316px;
+        height: 112px;
+    }
+
+    .header_container p {
+        max-width: 757px;
+    }
+
+    .header_links a {
+        width: 205px;
+        height: 44px;
+        padding: 11px 0;
+    }
+
+    .header_links a:nth-child(2) {
+        width: 281px;
+    }
+}
